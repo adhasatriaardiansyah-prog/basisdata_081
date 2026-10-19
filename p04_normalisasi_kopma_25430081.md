@@ -57,7 +57,7 @@ Menghilangkan ketergantungan transitif pada tabel penjualan, di mana atribut non
 ---
 
 ## 5. Pemeriksaan BCNF (Boyce-Codd Normal Form)
-Seluruh penentu (*determinant*) pada skema 3NF di atas merupakan kunci kandidat (*candidate key*). Dengan demikian, skema relasional ini telah memenuhi standar **BCNF**.
+Seluruh penentu (`determinant`) pada skema 3NF di atas merupakan kunci kandidat (`candidate key`). Dengan demikian, skema relasional ini telah memenuhi standar **BCNF**.
 
 ---
 
@@ -83,7 +83,7 @@ Berdasarkan hasil normalisasi dan integrasi kebutuhan sistem secara menyeluruh, 
 
 2. **`anggota`**
    * Primary Key: `id_anggota` (INT, AI)
-   * Unique Key: `no_anggota` (CHAR(6)), `nim_anggota` (CHAR(10)) *(AB-05)*
+   * Unique Key: `no_anggota` (CHAR(6)), `nim_anggota` (CHAR(10)) `(AB-05)`
    * Atribut Lain: `nama_anggota`, `prodi_anggota`, `no_hp_anggota` (pribadi), `status_anggota`, `tgl_daftar_anggota`
 
 3. **`barang`**
